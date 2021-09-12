@@ -1,0 +1,11 @@
+.divContainerPai {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.divBoxAdmin {
+  width: 75%;
+  height: 78.3vh;
+  margin-top: 30px;
+}

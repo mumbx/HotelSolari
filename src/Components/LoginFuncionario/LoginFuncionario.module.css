@@ -1,0 +1,125 @@
+.backgroundFuncionario {
+  background-image: url('../../Assets/img/backgroundFuncionario.png');
+  background-size: cover;
+  height: 83vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: transicao 0.3s forwards;
+}
+
+.loader{
+  width: 50px;
+  display: block;
+  margin: 0px auto;
+}
+
+.error{
+  margin-top: 15px;
+  color: #ffaa00;
+  opacity: 0;
+  animation: transicao 1s forwards;
+}
+
+.loginBox {
+  width: 260px;
+  height: 330px;
+  background: #1a1a1a;
+  border-radius: 5px;
+  padding: 70px 30px;
+  text-align: center;
+  transform: translateX(-50px);
+  animation: animedown 0.3s forwards;
+
+}
+
+.centralizaLogin {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logoLogin {
+  width: 35%;
+  margin-top: -10px;
+  margin-bottom: 7px;
+}
+
+.tituloLogin {
+  font-size: 30px;
+  text-align: center;
+}
+
+.loginTitulo {
+  margin-bottom: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.inputLogin {
+  width: 220px;
+  height: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.inputLogin::placeholder {
+  color: #000;
+  font-size: 0.85rem;
+  padding-left: 5px;
+}
+
+.erro {
+  font-size: 10px;
+  color: #ffaa00;
+  margin-bottom: 10px;
+}
+
+.boxLogin {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxButtonLogin {
+  margin-top: 10px;
+}
+
+@keyframes transicao {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+/*RESPONSIVO LOGIN FUNCIONARIO*/
+
+@media (max-width: 768px) {
+  .loginBox {
+    width: 190px;
+    height: 280px;
+  }
+
+  .inputLogin {
+    width: 175px;
+    height: 18px;
+    border: none;
+    outline: none;
+    margin-bottom: 12px;
+  }
+}
+
+@keyframes animedown {
+  to {
+    
+    transform: initial;
+  }
+}

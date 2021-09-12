@@ -1,0 +1,237 @@
+.main {
+  opacity: 0;
+  animation: transicao 0.3s forwards;
+}
+
+.backgroundHome {
+  background-image: url('../../Assets/img/backgroundHome.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundHome h2 {
+  color: #ecae31;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.backgroundHome h5 {
+  width: 70%;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.estrela {
+  font-size: 3rem;
+  color: #ecae31;
+  width: 100%;
+  text-align: center;
+}
+
+.sobreNos {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin: 60px 30px;
+}
+
+.textoSobreNos {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textoSobreNos h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #ecae31;
+  margin-bottom: 30px;
+}
+
+.textoSobreNos h5 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.textoSobreNos p {
+  font-size: 1rem;
+  color: #565656;
+  line-height: 25px;
+  margin-right: 40px;
+}
+
+.imgSobreNos {
+  width: 40%;
+}
+
+.hotelHome {
+  width: 100%;
+}
+
+.galeria {
+  width: 100%;
+  height: auto;
+  background-color: #ddd;
+  padding: 40px 0px;
+}
+
+.galeria img {
+  padding: 0 5px;
+  margin: 0 20px;
+}
+
+.boxGaleria {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.containerFlexServicos {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.containerServicos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: #fff;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.card img {
+  width: 30%;
+}
+
+/*outrooo*/
+.card h3 {
+  font-size: 1.25em;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+
+.card p {
+  color: #565656;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.estrelax {
+  transform: translateX(-100px);
+  animation: estrela 5.5s;
+}
+
+@keyframes transicao {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+@keyframes estrela {
+  to {
+    transform: initial;
+  }
+}
+
+/*RESPONSIVO*/
+
+@media (max-width: 1325px) {
+  .boxGaleria {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .galeria img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .backgroundHome h2 {
+    font-size: 2rem;
+  }
+
+  .backgroundHome h5 {
+    width: 70%;
+    color: white;
+    font-size: 2.25rem;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .estrela {
+    font-size: 2rem;
+    color: #ecae31;
+    width: 100%;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 60px 30px;
+  }
+
+  .textoSobreNos {
+    width: 100%;
+  }
+
+  .textoSobreNos h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .textoSobreNos h5 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .textoSobreNos p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .imgSobreNos {
+    width: 100%;
+  }
+
+  .galeria img {
+    padding-bottom: 20px;
+  }
+}
