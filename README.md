@@ -7,6 +7,10 @@ Criação de frontend conectado com API para um hotel, utilizando os verbos HTTP
 
 Link https://hotelsolari.netlify.app/Contato 
 
+Admin
+CPF:12345678911
+Senha:Admin1234
+
 ## Badges
 
 ![Node](https://img.shields.io/badge/node-16.2.0-green)
