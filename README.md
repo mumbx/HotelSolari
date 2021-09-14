@@ -5,7 +5,7 @@
 
 Criação de frontend conectado com API para um hotel, utilizando os verbos HTTP seguindo o padrão REST e contendo todas as operações de CRUD.
 
-Link https://hotelsolari.netlify.app/Contato 
+Link https://hotelsolari.netlify.app
 
 Admin
 CPF:12345678911
